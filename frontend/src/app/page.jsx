@@ -808,9 +808,9 @@ const Home = () => {
 
 Unlock your potential today.
           </h3>
-          <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Action!
-          </button>
+          <Link href='/contact' className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+           Contact
+          </Link>
         </section>
         {/*Footer*/}
         <footer className="bg-white">
@@ -935,7 +935,7 @@ Unlock your potential today.
                   </li>
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                     <a
-                      href="#"
+                      href="/about"
                       className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                     >
                       About Us
@@ -943,7 +943,7 @@ Unlock your potential today.
                   </li>
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                     <a
-                      href="#"
+                      href="/contact"
                       className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                     >
                       Contact

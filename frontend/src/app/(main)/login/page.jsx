@@ -1,6 +1,40 @@
 import React from 'react';
 
 const Login = () => {
+
+  const loginForm = useFormik({
+    initialValues: {
+      name: '',
+      email: '',
+      password: '',
+      confirmPassword: ''
+    },
+    onSubmit: (values) => {
+      console.log(values);
+      fetch('http://localhost:5000/user/add', {
+        method: 'POST',
+        body: JSON.stringify(values),
+        headers: {
+          'Content-Type' : 'application/json'
+        }
+      })
+      .then((response) => {
+        console.log(response.status);
+        if (response.status === 200)
+        {
+          enqueueSnackbar("User Added Successfully", {variant:'success'})
+          router.push("/login")
+        }else{
+          enqueueSnackbar("somthing went wrong", {variant:'warning'})
+        }
+        
+      }).catch((err) => {
+        enqueueSnackbar("User already exist", {variant:"warning"})
+        
+      });
+    }
+  })
+  
   return (
     <div className='bg-blue-200'>
     <section className="">

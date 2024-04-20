@@ -1,9 +1,12 @@
 'use client';
 import { useFormik } from 'formik'
+import { useRouter } from 'next/navigation';
 import { enqueueSnackbar } from 'notistack';
 import React from 'react'
 
 const Signup = () => {
+
+  const router = useRouter();
 
   const signupForm = useFormik({
     initialValues: {
@@ -26,6 +29,7 @@ const Signup = () => {
         if (response.status === 200)
         {
           enqueueSnackbar("User Added Successfully", {variant:'success'})
+          router.push("/login")
         }else{
           enqueueSnackbar("somthing went wrong", {variant:'warning'})
         }
