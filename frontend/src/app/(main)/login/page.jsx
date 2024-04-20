@@ -1,17 +1,20 @@
+'use client';
+import { useFormik } from 'formik';
+import { enqueueSnackbar } from 'notistack';
 import React from 'react';
 
 const Login = () => {
 
   const loginForm = useFormik({
     initialValues: {
-      name: '',
+     
       email: '',
       password: '',
-      confirmPassword: ''
+      
     },
     onSubmit: (values) => {
       console.log(values);
-      fetch('http://localhost:5000/user/add', {
+      fetch('http://localhost:5000/user/authenticate', {
         method: 'POST',
         body: JSON.stringify(values),
         headers: {
@@ -22,7 +25,7 @@ const Login = () => {
         console.log(response.status);
         if (response.status === 200)
         {
-          enqueueSnackbar("User Added Successfully", {variant:'success'})
+          enqueueSnackbar("User login Successfully", {variant:'success'})
           router.push("/login")
         }else{
           enqueueSnackbar("somthing went wrong", {variant:'warning'})
@@ -54,7 +57,7 @@ const Login = () => {
           </h1>
         </div>
         <div className="mt-8 lg:w-1/2 lg:mt-0">
-          <form className="w-full lg:max-w-xl">
+          <form className="w-full lg:max-w-xl" onSubmit={loginForm.handleSubmit}>
             <div className="relative flex items-center">
               <span className="absolute">
                 <svg
@@ -74,6 +77,9 @@ const Login = () => {
               </span>
               <input
                 type="email"
+                id='email'
+                value={loginForm.values.email}
+                onChange={loginForm.handleChange}
                 className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Email address"
               />
@@ -97,12 +103,15 @@ const Login = () => {
               </span>
               <input
                 type="password"
+                id='password'
+                value={loginForm.values.password}
+                onChange={loginForm.handleChange}
                 className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Password"
               />
             </div>
             <div className="mt-8 md:flex md:items-center">
-              <button className="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg md:w-1/2 hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+              <button type='submit' className="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg md:w-1/2 hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                 Sign in
               </button>
               <a
