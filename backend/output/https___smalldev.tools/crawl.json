@@ -1,5 +1,5 @@
 {
- "url": "https://smalldev.tools/",
+ "url": "https://smalldev.tools",
  "title": "Home - SmallDev.tools",
  "children": [
   {
@@ -7,9 +7,106 @@
    "title": "SmallDev.tools - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools",
+     "children": [
+      {
+       "url": "https://smalldev.tools/share-bin"
+      },
+      {
+       "url": "https://smalldev.tools/json-decoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/json-formatter-online"
+      },
+      {
+       "url": "https://smalldev.tools/base64-encoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/base64-decoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/url-encoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/url-decoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/utf8-encoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/utf8-decoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/xml-decoder-online"
+      },
+      {
+       "url": "https://smalldev.tools/javascript-formatter-online"
+      },
+      {
+       "url": "https://smalldev.tools/html-formatter-online"
+      },
+      {
+       "url": "https://smalldev.tools/css-formatter-online"
+      },
+      {
+       "url": "https://smalldev.tools/compress-javascript-online"
+      },
+      {
+       "url": "https://smalldev.tools/compress-css-online"
+      },
+      {
+       "url": "https://smalldev.tools/sql-formatter-online"
+      },
+      {
+       "url": "https://smalldev.tools/test-data-generator-online"
+      },
+      {
+       "url": "https://smalldev.tools/lorem-ipsum-generator-online"
+      },
+      {
+       "url": "https://smalldev.tools/credit-card-generator-online"
+      },
+      {
+       "url": "https://smalldev.tools/placeholder-image-generator-online"
+      },
+      {
+       "url": "https://smalldev.tools/html-to-markdown-converter-online"
+      },
+      {
+       "url": "https://smalldev.tools/markdown-editor-online"
+      },
+      {
+       "url": "https://smalldev.tools/diff-checker-online"
+      },
+      {
+       "url": "https://smalldev.tools/html-to-pdf-converter-online"
+      },
+      {
+       "url": "https://smalldev.tools/qr-code-generator-online"
+      },
+      {
+       "url": "https://smalldev.tools/qr-code-scanner-online"
+      },
+      {
+       "url": "https://smalldev.tools/sorting-list-online"
+      },
+      {
+       "url": "https://smalldev.tools/string-utils-online"
+      },
+      {
+       "url": "https://smalldev.tools/about-us"
+      }
+     ]
+    },
+    {
      "url": "https://smalldev.tools/json-decoder-online",
      "title": "JSON decoder, decode JSON to PHP array - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
@@ -129,6 +226,10 @@
      "title": "Format JSON string online, beautify JSON string - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -246,6 +347,10 @@
      "url": "https://smalldev.tools/base64-encoder-online",
      "title": "Base64 online encoder, encode string to base64 - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
@@ -365,6 +470,10 @@
      "title": "Base64 online decoder - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/base64-encoder-online",
        "title": "Base64 online encoder, encode string to base64 - SmallDev.tools"
       },
@@ -482,6 +591,10 @@
      "url": "https://smalldev.tools/url-encoder-online",
      "title": "URL Encoder online - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
@@ -601,6 +714,10 @@
      "title": "URL Decoder online - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
       },
@@ -718,6 +835,10 @@
      "url": "https://smalldev.tools/utf8-encoder-online",
      "title": "UTF8 Encoder online - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
@@ -837,6 +958,10 @@
      "title": "UTF8 Decoder online - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
       },
@@ -955,6 +1080,10 @@
      "title": "XML to array converter - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
       },
@@ -1072,6 +1201,10 @@
      "url": "https://smalldev.tools/javascript-formatter-online",
      "title": "Online Javascript formatter, javascript beautifier - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
@@ -1196,6 +1329,10 @@
      "title": "Online HTML formatter, HTML beautifier - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
       },
@@ -1319,6 +1456,10 @@
      "title": "Online CSS formatter, CSS beautifier - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
       },
@@ -1436,6 +1577,10 @@
      "url": "https://smalldev.tools/compress-javascript-online",
      "title": "Minify Javascript code or Compress Javascript code - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
@@ -1565,6 +1710,10 @@
      "title": "Minify CSS code or Compress CSS code - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
       },
@@ -1682,6 +1831,10 @@
      "url": "https://smalldev.tools/sql-formatter-online",
      "title": "Format SQL code Online - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/base64-decoder-online",
        "title": "Base64 online decoder - SmallDev.tools"
@@ -1806,6 +1959,10 @@
      "title": "Test or Dummy dataset generator - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -1923,6 +2080,10 @@
      "url": "https://smalldev.tools/lorem-ipsum-generator-online",
      "title": "Lorem Ipsum generator - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
@@ -2042,6 +2203,10 @@
      "title": "Fake/Test credit card details generator - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -2159,6 +2324,10 @@
      "url": "https://smalldev.tools/placeholder-image-generator-online",
      "title": "Placeholder Image Generator - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
@@ -2278,6 +2447,10 @@
      "title": "HTML to Markdown Converter - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -2395,6 +2568,10 @@
      "url": "https://smalldev.tools/markdown-editor-online",
      "title": "GFM Markdown and WYSIWYG Editor - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
@@ -2514,6 +2691,10 @@
      "title": "Check difference between files online - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -2632,6 +2813,10 @@
      "title": "Convert HTML to PDF file online | Generate PDF from HTML - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -2749,6 +2934,10 @@
      "url": "https://smalldev.tools/qr-code-generator-online",
      "title": "Generate QR code online - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
@@ -2873,6 +3062,10 @@
      "title": "Scan QR code online - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -2995,6 +3188,10 @@
      "url": "https://smalldev.tools/sorting-list-online",
      "title": "Sort list a numbers or Strings alphabetically or by length - SmallDev.tools",
      "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
       {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
@@ -3119,6 +3316,10 @@
      "title": "String Utilities: Convert uppercase, lowercase, remove or replace newline character - SmallDev.tools",
      "children": [
       {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      },
+      {
        "url": "https://smalldev.tools/share-bin",
        "title": "SmallDev.tools - SmallDev.tools"
       },
@@ -3240,7 +3441,12 @@
     {
      "url": "https://smalldev.tools/about-us",
      "title": "ABOUT US Small Devtools by Arcana.Network - SmallDev.tools",
-     "children": []
+     "children": [
+      {
+       "url": "https://smalldev.tools/",
+       "title": "Home - SmallDev.tools"
+      }
+     ]
     }
    ]
   },
@@ -3248,6 +3454,10 @@
    "url": "https://smalldev.tools/json-decoder-online",
    "title": "JSON decoder, decode JSON to PHP array - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
@@ -3367,6 +3577,10 @@
    "title": "Format JSON string online, beautify JSON string - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -3484,6 +3698,10 @@
    "url": "https://smalldev.tools/base64-encoder-online",
    "title": "Base64 online encoder, encode string to base64 - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
@@ -3603,6 +3821,10 @@
    "title": "Base64 online decoder - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/base64-encoder-online",
      "title": "Base64 online encoder, encode string to base64 - SmallDev.tools"
     },
@@ -3720,6 +3942,10 @@
    "url": "https://smalldev.tools/url-encoder-online",
    "title": "URL Encoder online - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
@@ -3839,6 +4065,10 @@
    "title": "URL Decoder online - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
     },
@@ -3956,6 +4186,10 @@
    "url": "https://smalldev.tools/utf8-encoder-online",
    "title": "UTF8 Encoder online - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
@@ -4075,6 +4309,10 @@
    "title": "UTF8 Decoder online - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
     },
@@ -4193,6 +4431,10 @@
    "title": "XML to array converter - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
     },
@@ -4310,6 +4552,10 @@
    "url": "https://smalldev.tools/javascript-formatter-online",
    "title": "Online Javascript formatter, javascript beautifier - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
@@ -4434,6 +4680,10 @@
    "title": "Online HTML formatter, HTML beautifier - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
     },
@@ -4557,6 +4807,10 @@
    "title": "Online CSS formatter, CSS beautifier - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
     },
@@ -4674,6 +4928,10 @@
    "url": "https://smalldev.tools/compress-javascript-online",
    "title": "Minify Javascript code or Compress Javascript code - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
@@ -4803,6 +5061,10 @@
    "title": "Minify CSS code or Compress CSS code - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
     },
@@ -4920,6 +5182,10 @@
    "url": "https://smalldev.tools/sql-formatter-online",
    "title": "Format SQL code Online - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/base64-decoder-online",
      "title": "Base64 online decoder - SmallDev.tools"
@@ -5044,6 +5310,10 @@
    "title": "Test or Dummy dataset generator - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -5161,6 +5431,10 @@
    "url": "https://smalldev.tools/lorem-ipsum-generator-online",
    "title": "Lorem Ipsum generator - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
@@ -5280,6 +5554,10 @@
    "title": "Fake/Test credit card details generator - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -5397,6 +5675,10 @@
    "url": "https://smalldev.tools/placeholder-image-generator-online",
    "title": "Placeholder Image Generator - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
@@ -5516,6 +5798,10 @@
    "title": "HTML to Markdown Converter - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -5633,6 +5919,10 @@
    "url": "https://smalldev.tools/markdown-editor-online",
    "title": "GFM Markdown and WYSIWYG Editor - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
@@ -5752,6 +6042,10 @@
    "title": "Check difference between files online - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -5870,6 +6164,10 @@
    "title": "Convert HTML to PDF file online | Generate PDF from HTML - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -5987,6 +6285,10 @@
    "url": "https://smalldev.tools/qr-code-generator-online",
    "title": "Generate QR code online - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
@@ -6111,6 +6413,10 @@
    "title": "Scan QR code online - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -6233,6 +6539,10 @@
    "url": "https://smalldev.tools/sorting-list-online",
    "title": "Sort list a numbers or Strings alphabetically or by length - SmallDev.tools",
    "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
     {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
@@ -6357,6 +6667,10 @@
    "title": "String Utilities: Convert uppercase, lowercase, remove or replace newline character - SmallDev.tools",
    "children": [
     {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    },
+    {
      "url": "https://smalldev.tools/share-bin",
      "title": "SmallDev.tools - SmallDev.tools"
     },
@@ -6478,7 +6792,12 @@
   {
    "url": "https://smalldev.tools/about-us",
    "title": "ABOUT US Small Devtools by Arcana.Network - SmallDev.tools",
-   "children": []
+   "children": [
+    {
+     "url": "https://smalldev.tools/",
+     "title": "Home - SmallDev.tools"
+    }
+   ]
   }
  ]
 }

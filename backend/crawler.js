@@ -1,50 +1,18 @@
-/**
- * Copyright 2018 Google Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * @author ebidel@ (Eric Bidelman)
- */
-
-/**
- * Discovers all the pages in site or single page app (SPA) and creates
- * a tree of the result in ./output/<site slug/crawl.json. Optionally
- * takes screenshots of each page as it is visited.
- *
- * Usage:
- *   node crawlsite.js
- *   URL=https://yourspa.com node crawlsite.js
- *   URL=https://yourspa.com node crawlsite.js --screenshots
- *
- * Then open the visualizer in a browser:
- *   http://localhost:8080/html/d3tree.html
- *   http://localhost:8080/html/d3tree.html?url=../output/https___yourspa.com/crawl.json
- *
- *Start Server:
- *   node server.js
- *
- */
-
 const { existsSync, mkdirSync, writeFile } = require('fs');
 const { promisify } = require('util');
 const { launch } = require('puppeteer');
 const { sharp } = require('sharp');
+// const { del } = require('del');
 
-const URL = process.env.URL || 'https://digipodium.com/';
+
+const getOutputDirectory = (url) => {
+    return `output/${slugify(url)}`;
+}
+// const URL = process.env.URL || 'https://digipodium.com/';
 const SCREENSHOTS = process.argv.includes('--screenshots');
 const DEPTH = parseInt(process.env.DEPTH) || 2;
 const VIEWPORT = SCREENSHOTS ? { width: 1028, height: 800, deviceScaleFactor: 2 } : null;
-const OUT_DIR = process.env.OUTDIR || `output/${slugify(URL)}`;
+// const OUT_DIR = process.env.OUTDIR || `output/${slugify(URL)}`;
 
 const crawledPages = new Map();
 const maxDepth = DEPTH; // Subpage depth to crawl site.
@@ -67,6 +35,7 @@ function _mkdirSync(dirPath) {
             throw err;
         }
     }
+
 }
 
 /**
@@ -110,7 +79,7 @@ function collectAllSameOriginAnchorsDeep(sameOrigin = true) {
  * @param {{url: string, title: string, img?: string, children: !Array<!Object>}} page Current page.
  * @param {number=} depth Current subtree depth of crawl.
  */
-async function crawl(browser, page, depth = 0) {
+async function crawl(url, browser, page, depth = 0) {
     if (depth > maxDepth) {
         return;
     }
@@ -142,7 +111,7 @@ async function crawl(browser, page, depth = 0) {
         page.children = anchors.map(url => ({ url }));
 
         if (SCREENSHOTS) {
-            const path = `./${OUT_DIR}/${slugify(page.url)}.png`;
+            const path = `./${getOutputDirectory(url)}/${slugify(page.url)}.png`;
             let imgBuff = await newPage.screenshot({ fullPage: false });
             imgBuff = await sharp(imgBuff).resize(null, 150).toBuffer(); // resize image to 150 x auto.
             promisify(writeFile)(path, imgBuff); // async
@@ -156,26 +125,32 @@ async function crawl(browser, page, depth = 0) {
 
     // Crawl subpages.
     for (const childPage of page.children) {
-        await crawl(browser, childPage, depth + 1);
+        await crawl(url, browser, childPage, depth + 1);
     }
 }
 
-(async () => {
+const generateSitemap = async (url, persist) => {
 
-    mkdirSync(OUT_DIR); // create output dir if it doesn't exist.
-    // await del([`${OUT_DIR}/*`]); // cleanup after last run.
+
+    try {
+        mkdirSync(getOutputDirectory(url)); // create output dir if it doesn't exist.
+    } catch (error) {
+        console.log(error);
+    }
+    // if(!persist) {
+    //     await del([`${OUT_DIR}/*`]);
+    // }
 
     const browser = await launch();
     const page = await browser.newPage();
     if (VIEWPORT) {
         await page.setViewport(VIEWPORT);
     }
-
-    const root = { url: URL };
-    await crawl(browser, root);
-
-    await promisify(writeFile)(`./${OUT_DIR}/crawl.json`, JSON.stringify(root, null, ' '));
-
+    const root = { url };
+    await crawl(url, browser, root);
+    await promisify(writeFile)(`./${getOutputDirectory(url)}/crawl.json`, JSON.stringify(root, null, ' '));
     await browser.close();
+    return `${getOutputDirectory(url)}/crawl.json`;
+}
 
-})();
+module.exports = generateSitemap;
