@@ -6,6 +6,7 @@ import Link from 'next/link';
 const Home = () => {
   return (
     <>
+      <Navbar />
       <div className={`leading-normal tracking-normal text-white ${classes.gradient}`}>
         {/* <nav id="header" className="fixed w-full z-30 top-0 text-white" style={{backgroundColor: '#0000006b'}}>
           <div className="w-full lg:w-3/4 container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
@@ -86,7 +87,7 @@ const Home = () => {
               <p className="leading-normal text-2xl mb-8">
                 Create sitemaps and wireframes effortlessly. Elevate your website planning with our intuitive tools. Get started now.
               </p>
-              <Link href="/login" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <Link href="/signup" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Get Started
               </Link>
             </div>
@@ -136,7 +137,7 @@ const Home = () => {
         <section className="bg-white border-b py-8">
           <div className="container max-w-5xl mx-auto m-8">
             <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-            Online wireframe tool
+              Online wireframe tool
             </h2>
             <div className="w-full mb-4">
               <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
@@ -144,14 +145,14 @@ const Home = () => {
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 p-6">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Features
+                  Features
                 </h3>
                 <p className="text-gray-600 mb-8">
-                Integrate hotspots, layers, and links to revamp your wireframes, compare workflows, and link resources.
-                Our shape library makes diagramming easy. Hundreds of available shapes, plus you can create your own shape libraries with imported and custom shapes.
+                  Integrate hotspots, layers, and links to revamp your wireframes, compare workflows, and link resources.
+                  Our shape library makes diagramming easy. Hundreds of available shapes, plus you can create your own shape libraries with imported and custom shapes.
                   <br />
                   <br />
-        
+
                 </p>
               </div>
               <div className="w-full sm:w-1/2 p-6">
@@ -583,13 +584,13 @@ const Home = () => {
               <div className="w-full sm:w-1/2 p-6 mt-6">
                 <div className="align-middle">
                   <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                  Works wherever you do
+                    Works wherever you do
                   </h3>
                   <p className="text-gray-600 mb-8">
-                  Connect WEBMAP to all your favorite industry-leading apps. Our integrations are simple to set up and easy to use so you can start using WEBMAP right away.
+                    Connect WEBMAP to all your favorite industry-leading apps. Our integrations are simple to set up and easy to use so you can start using WEBMAP right away.
                     <br />
                     <br />
-                    
+
                   </p>
                 </div>
               </div>
@@ -611,13 +612,13 @@ const Home = () => {
                   className="flex flex-wrap no-underline hover:no-underline"
                 >
                   <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                    
+
                   </p>
                   <div className="w-full font-bold text-xl text-gray-800 px-6">
-                  Organize page content
+                    Organize page content
                   </div>
                   <p className="text-gray-800 text-base px-6 mb-5">
-                  Organize your page content by highlighting content blocks with color. Develop your color codes and apply them to your projects.
+                    Organize your page content by highlighting content blocks with color. Develop your color codes and apply them to your projects.
                   </p>
                 </a>
               </div>
@@ -636,13 +637,13 @@ const Home = () => {
                   className="flex flex-wrap no-underline hover:no-underline"
                 >
                   <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                 
+
                   </p>
                   <div className="w-full font-bold text-xl text-gray-800 px-6">
-                  Visualize with wireframes
+                    Visualize with wireframes
                   </div>
                   <p className="text-gray-800 text-base px-6 mb-5">
-                  With low fidelity wireframes you can visualize contents of each block making it easy to understand the page layout and prepare the content fo your future project.
+                    With low fidelity wireframes you can visualize contents of each block making it easy to understand the page layout and prepare the content fo your future project.
                   </p>
                 </a>
               </div>
@@ -661,13 +662,13 @@ const Home = () => {
                   className="flex flex-wrap no-underline hover:no-underline"
                 >
                   <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                    
+
                   </p>
                   <div className="w-full font-bold text-xl text-gray-800 px-6">
-                  Export your sitemaps to JSON, XML
+                    Export your sitemaps to JSON, XML
                   </div>
                   <p className="text-gray-800 text-base px-6 mb-5">
-                  Have your sitemaps exported as JSON XML. Prepare your material for printing, publishing, offline meetings or exporting. Attach time estimates when needed.
+                    Have your sitemaps exported as JSON XML. Prepare your material for printing, publishing, offline meetings or exporting. Attach time estimates when needed.
                   </p>
                 </a>
               </div>
@@ -804,12 +805,12 @@ const Home = () => {
             <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t" />
           </div>
           <h3 className="my-4 text-3xl leading-tight">
-          Unleash your design prowess with our powerful tools. From sitemaps to wireframes, we provide the canvas for your digital masterpiece. Elevate your projects, captivate your audience, and stand out in the digital landscape.
+            Unleash your design prowess with our powerful tools. From sitemaps to wireframes, we provide the canvas for your digital masterpiece. Elevate your projects, captivate your audience, and stand out in the digital landscape.
 
-Unlock your potential today.
+            Unlock your potential today.
           </h3>
           <Link href='/contact' className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-           Contact
+            Contact
           </Link>
         </section>
         {/*Footer*/}
@@ -957,7 +958,7 @@ Unlock your potential today.
             href="https://www.freepik.com/free-photos-vectors/background"
             className="text-gray-500"
           >
-</a>
+          </a>
         </footer>
       </div>
 
