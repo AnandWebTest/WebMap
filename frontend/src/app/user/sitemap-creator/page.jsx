@@ -1,6 +1,7 @@
 'use client';
 import React, { useRef, useState } from 'react'
 import { CopyBlock, dracula } from 'react-code-blocks';
+import { json2xml } from 'xml-js';
 
 const SitemapCreator = () => {
 
@@ -33,6 +34,12 @@ const SitemapCreator = () => {
         console.log(err);
       })
   }
+
+  const jsontoxml = () => {
+    
+    const   json = JSON.stringify(sitemapJSON.children, null, 2);
+   return json2xml(json, { compact: true, spaces: 4 });
+  } 
 
   return (
     <>
@@ -107,9 +114,14 @@ const SitemapCreator = () => {
       </div>
       <div className='pt-20'>
         <label htmlFor="">tell me something</label>
+        {
+         
+        }
         <textarea className='w-full'
         rows={50}
-          value={JSON.stringify(sitemapJSON.children, null, 2)}
+          // value={JSON.stringify(sitemapJSON.children, null, 2)}
+          value={jsontoxml()}
+          
         ></textarea>
       </div>
     </>

@@ -19,7 +19,8 @@
     "react-code-blocks": "^0.1.6",
     "react-dnd": "^16.0.1",
     "react-dom": "^18",
-    "reactflow": "^11.11.2"
+    "reactflow": "^11.11.2",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.18",
