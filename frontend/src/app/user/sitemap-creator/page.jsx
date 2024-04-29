@@ -36,10 +36,9 @@ const SitemapCreator = () => {
   }
 
   const jsontoxml = () => {
-    
-    const   json = JSON.stringify(sitemapJSON.children, null, 2);
-   return json2xml(json, { compact: true, spaces: 4 });
-  } 
+    const json = JSON.stringify(sitemapJSON.children, null, 2);
+    return json2xml(json, { compact: true, spaces: 4 });
+  }
 
   return (
     <>
@@ -108,10 +107,14 @@ const SitemapCreator = () => {
         wrapLines={true}
       /> */}
       </div>
-      <div className='pt-20'>
+      <div className='pt-20 grid grid-cols-2 gap-5'>
         <textarea className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
           rows={50}
           value={JSON.stringify(sitemapJSON.children, null, 2).slice(0, 500)}
+        ></textarea>
+        <textarea className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
+          rows={50}
+          value={jsontoxml()}
         ></textarea>
       </div>
     </>
