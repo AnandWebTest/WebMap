@@ -15,7 +15,6 @@ const Template = ({ children }) => {
     return (
         <SnackbarProvider anchorOrigin={{ vertical: 'top', horizontal: 'center' }} autoHideDuration={2000}>
             <WireframeProvider>
-                <Navbar />
                 {children}
             </WireframeProvider>
         </SnackbarProvider>
