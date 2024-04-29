@@ -37,20 +37,20 @@ const SitemapCreator = () => {
   return (
     <>
       <div className="relative bg-blue-900">
-        <div className="absolute inset-x-0 bottom-0">
+        {/* <div className="absolute inset-x-0 bottom-0">
           <svg
             viewBox="0 0 224 12"
-            fill="currentColor"
+            fill="#fff"
             className="w-full -mb-1 text-black"
             preserveAspectRatio="none"
           >
             <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
           </svg>
-        </div>
+        </div> */}
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
             <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-              Start from here
+              SiteMap Generator
               <br className="hidden md:block" />
 
               <span className="relative inline-block">
@@ -71,15 +71,11 @@ const SitemapCreator = () => {
               <button
                 onClick={generateSitemap}
                 type="button"
-                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-blue-700 transition duration-200 rounded shadow-md md:w-auto bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
-                Start
+                Generate
               </button>
             </form>
-            <p className="max-w-md mb-10 text-xs font-thin tracking-wide text-gray-500 sm:text-sm sm:mx-auto md:mb-16">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium.
-            </p>
             <a
               href="/"
               aria-label="Scroll down"
@@ -106,10 +102,9 @@ const SitemapCreator = () => {
       /> */}
       </div>
       <div className='pt-20'>
-        <label htmlFor="">tell me something</label>
-        <textarea className='w-full'
-        rows={50}
-          value={JSON.stringify(sitemapJSON.children, null, 2)}
+        <textarea className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
+          rows={50}
+          value={JSON.stringify(sitemapJSON.children, null, 2).slice(0, 500)}
         ></textarea>
       </div>
     </>
