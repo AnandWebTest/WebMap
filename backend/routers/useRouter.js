@@ -19,7 +19,7 @@ router.post("/authenticate", (req, res) => {
           if(result){
             res.status(200).json(result);
           }else{
-            res.status(401).json({message: "invaloide credentials"})
+            res.status(401).json({message: "invalid credentials"})
           }
            
         }).catch((err) => {
@@ -39,10 +39,14 @@ router.get('/getall', (req, res) => {
 router.get('/update', (req, res) => {
     res.send('post update response');
 })
-
-router.get('/delete', (req, res) => {
-    res.send('post delete response');
-})
+router.delete('/delete/:id', (req, res) => {
+    Model.findByIdAndDelete(req.params.id)
+    .then((result) => {
+     res.status(200).json(result);
+    }).catch((err) => {
+     res.status(500).json(err);
+    });
+ });
 
 // getall
 // update

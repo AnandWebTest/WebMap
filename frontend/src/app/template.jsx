@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { SnackbarProvider } from 'notistack';
-import Navbar from './(main)/navbar';
+// import Navbar from './(main)/navbar';
 
 const Template = ({ children }) => {
 
@@ -15,7 +15,7 @@ const Template = ({ children }) => {
         <SnackbarProvider anchorOrigin={{ vertical: 'top', horizontal: 'center'}} autoHideDuration={1000}>
 
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             {children}
         </div>
         </SnackbarProvider>
