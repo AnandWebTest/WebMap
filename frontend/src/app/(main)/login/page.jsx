@@ -1,5 +1,6 @@
 'use client';
 import { useFormik } from 'formik';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { enqueueSnackbar } from 'notistack';
 import React from 'react';
@@ -115,12 +116,12 @@ const Login = () => {
                   <button type='submit' className="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg md:w-1/2 hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                     Sign in
                   </button>
-                  <a
+                  <Link
                     href="/resetPassword"
                     className="inline-block mt-4 text-center text-blue-500 md:mt-0 md:mx-6 hover:underline dark:text-blue-400"
                   >
                     Forgot your password?
-                  </a>
+                  </Link>
                   <a
                     href="/signup"
                     className="text-sm text-blue-500 hover:underline dark:text-blue-400"
