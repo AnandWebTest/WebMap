@@ -9,6 +9,7 @@ import ReactFlow, {
 } from 'reactflow';
 
 import 'reactflow/dist/style.css';
+import DND from '../dnd';
 
 const initialNodes = [
     { id: '1', position: { x: 0, y: 0 }, data: { label: '1' }, type: "BlockNode", isConnectable: true },
@@ -23,6 +24,7 @@ const nodeTypes = {
             <div width={800} className='shadow-lg'>
                 <div className='w-full bg-white p-5 rounded-lg border-2 border-red-700'>
                     <h2>Wireframe Block</h2>
+                    <DND/>
                 </div>
                 <Handle
                     type="target"
