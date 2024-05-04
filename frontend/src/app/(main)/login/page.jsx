@@ -9,6 +9,8 @@ const Login = () => {
 
   const router = useRouter();
 
+
+
   const loginForm = useFormik({
     initialValues: {
 
@@ -29,6 +31,7 @@ const Login = () => {
           console.log(response.status);
           if (response.status === 200) {
             enqueueSnackbar("User login Successfully", { variant: 'success' })
+
             router.push("/")
           } else {
             enqueueSnackbar("somthing went wrong", { variant: 'error' })

@@ -7,7 +7,7 @@ const AppContext = createContext();
 export const AppProvider = ({children}) => {
     
     const router = useRouter();
-    const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem('user')));
+    const [ currentUser, setCurrentUser ] = useState(JSON.parse(sessionStorage.getItem('user')));
 
     const [loggedIn, setLoggedIn] = useState(currentUser!==null);
 

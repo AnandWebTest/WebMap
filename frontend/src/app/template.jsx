@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import { SnackbarProvider } from 'notistack';
 import Navbar from './(main)/navbar';
 import { WireframeProvider } from '@/context/WireframeContext';
+import { AppProvider } from '@/context/AppContext';
 
 const Template = ({ children }) => {
 
@@ -14,9 +15,11 @@ const Template = ({ children }) => {
 
     return (
         <SnackbarProvider anchorOrigin={{ vertical: 'top', horizontal: 'center' }} autoHideDuration={2000}>
+            <AppProvider>
             <WireframeProvider>
                 {children}
             </WireframeProvider>
+            </AppProvider>
         </SnackbarProvider>
     )
 }
