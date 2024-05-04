@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 
 const getBackendData = async (url) => {
     const res = await fetch(url, {
-
+        
     });
     const data = await res.json();
     console.log(data);
