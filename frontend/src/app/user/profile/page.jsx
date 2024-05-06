@@ -1,120 +1,138 @@
-import React from 'react'
+'use client'
+import { useFormik } from 'formik'
+import { enqueueSnackbar } from 'notistack'
+import React, { useState } from 'react'
 
 const UserProfile = () => {
 
+  const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem('user')))
 
-  
+  const useForm = useFormik({
+    initialValues: currentUser,
+    onSubmit: async (data) => {
+      console.log(data);
+      const res = await fetch(url + '/user/update' + currentUser._id, {
+        method: "PUT",
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      console.log(res.status);
+      const userData = await res.json();
+      console.log(userData);
+      setCurrentUser(data)
+      sessionStorage.setItem("user", JSON.stringify(userData))
+    }
+  })
+
+
+  const uploadProfileImage = (e) => {
+const file = e.target.files[0];
+const fd = new FormData();
+fd.append('myfile',file)
+fetch (`http://localhost:5000/util/uploadfile`, {
+  method:"POST",
+  body:fd,
+}) .then(res =>  {
+  if (res.status === 200) {
+    enqueueSnackbar('Profile image uploaded successfully')
+    updateProfile({ avatar : file.name})
+  }
+})
+  }
+
   return (
     <div>
-      <section className="py-10 my-auto dark:bg-gray-900">
-        <div className="lg:w-[80%] md:w-[90%] xs:w-[96%] mx-auto flex gap-4">
-          <div className="lg:w-[88%] md:w-[80%] sm:w-[88%] xs:w-full mx-auto shadow-2xl p-4 rounded-xl h-fit self-center dark:bg-gray-800/40">
-            {/*  */}
-            <div className="">
-              <h1 className="lg:text-3xl md:text-2xl sm:text-xl xs:text-xl font-serif font-extrabold mb-2 dark:text-white">
-                Profile
-              </h1>
-              <h2 className="text-grey text-sm mb-4 dark:text-gray-400">
-                Create Profile
-              </h2>
-              <form>
-                {/* Cover Image */}
-                <div className="w-full rounded-sm bg-[url('https://images.unsplash.com/photo-1449844908441-8829872d2607?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxob21lfGVufDB8MHx8fDE3MTA0MDE1NDZ8MA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center bg-no-repeat items-center">
-                  {/* Profile Image */}
-                  <div className="mx-auto flex justify-center w-[141px] h-[141px] bg-blue-300/20 rounded-full bg-[url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxwcm9maWxlfGVufDB8MHx8fDE3MTEwMDM0MjN8MA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center bg-no-repeat">
-                
-                  </div>
-                  <div className="flex justify-end">
-
-
-                    <div className="bg-white flex items-center gap-1 rounded-tl-md px-2 text-center font-semibold">
-                      <label
-                        htmlFor="upload_cover"
-                        className="inline-flex items-center gap-1 cursor-pointer"
-                      >
-                        Cover
-                        <svg
-                          data-slot="icon"
-                          className="w-6 h-5 text-blue-700"
-                          fill="none"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z"
-                          ></path>
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z"
-                          ></path>
-                        </svg>
-                      </label>
-                    </div>
-                  </div>
+      <>
+  {/* component */}
+  <link
+    rel="stylesheet"
+    href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+  />
+  <main className="profile-page">
+    <section className="relative block h-500-px">
+      <div
+        className="absolute top-0 w-full h-full bg-center bg-cover"
+        style={{
+          backgroundImage:
+            'url("https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80")'
+        }}
+      >
+        <span
+          id="blackOverlay"
+          className="w-full h-full absolute opacity-50 bg-black"
+        />
+      </div>
+      <div
+        className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
+        style={{ transform: "translateZ(0px)" }}
+      >
+        <svg
+          className="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x={0}
+          y={0}
+        >
+          <polygon
+            className="text-blueGray-200 fill-current"
+            points="2560 0 2560 100 0 100"
+          />
+        </svg>
+      </div>
+    </section>
+    <section className="relative py-16 bg-blueGray-200">
+      <div className="container mx-auto px-4">
+        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
+          <div className="px-6">
+            <div className="flex flex-wrap justify-center">
+              <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
+                <div className="relative">
+                  <img
+                    alt="..."
+                    src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg"
+                    className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+                  />
                 </div>
-                <h2 className="text-center mt-3 font-semibold dark:text-gray-300 ">
-
-                  <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">Upload Profile</label>
-                  <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type="file" />
-
-                </h2>
-                <div className="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col gap-2 justify-center w-full">
-                  <div className="w-full  mb-4 mt-6">
-                    <label htmlFor="" className="mb-2 dark:text-gray-300">
-                      First Name
-                    </label>
-                    <input
-                      type="text"
-                      className="mt-2 p-4 w-full border-2 rounded-lg dark:text-gray-200 dark:border-gray-600 dark:bg-gray-800"
-                      placeholder="First Name"
-                    />
-                  </div>
-                  <div className="w-full  mb-4 lg:mt-6">
-                    <label htmlFor="" className=" dark:text-gray-300">
-                      Last Name
-                    </label>
-                    <input
-                      type="text"
-                      className="mt-2 p-4 w-full border-2 rounded-lg dark:text-gray-200 dark:border-gray-600 dark:bg-gray-800"
-                      placeholder="Last Name"
-                    />
-                  </div>
-                </div>
-                <div className="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col gap-2 justify-center w-full">
-                  <div className="w-full">
-                    <h3 className="dark:text-gray-300 mb-2">Gender</h3>
-                    <select className="w-full text-grey border-2 rounded-lg p-4 pl-2 pr-2 dark:text-gray-200 dark:border-gray-600 dark:bg-gray-800">
-                      <option disabled="" value="">
-                        Select gender
-                      </option>
-                      <option value="Male">Male</option>
-                      <option value="Female">Female</option>
-                    </select>
-                  </div>
-                  <div className="w-full">
-                    <h3 className="dark:text-gray-300 mb-2">Date Of Birth</h3>
-                    <input
-                      type="date"
-                      className="text-grey p-4 w-full border-2 rounded-lg dark:text-gray-200 dark:border-gray-600 dark:bg-gray-800"
-                    />
-                  </div>
-                </div>
-                <div className="w-full rounded-lg bg-blue-500 mt-4 text-white text-lg font-semibold">
-                  <button type="submit" className="w-full p-4">
-                    Submit
+              </div>
+              <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
+                <div className="py-6 px-3 mt-32 sm:mt-0">
+                  <button
+                    className="bg-pink-500 active:bg-pink-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                    type="button"
+                  >
+                    Edit
                   </button>
                 </div>
-              </form>
+              </div>
+            
             </div>
+            <div className="text-center mt-12">
+              <h3 className="text-4xl font-semibold leading-normal mb-4 text-blueGray-700 ">
+                {currentUser.name}
+              </h3>
+             
+              <div className="mb-10 text-blueGray-600 ">
+     {currentUser.email}
+              </div>
+             
+            </div>
+            
           </div>
         </div>
-      </section>
+      </div>
+    
+    </section>
+  </main>
+</>
+
 
     </div>
   )

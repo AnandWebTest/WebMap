@@ -1,10 +1,8 @@
 // import
 const express = require('express');
 const cors = require('cors');
-
 // initialize
 const app = express();
-
 const userRouter = require('./routers/useRouter');
 const sitemapRouter = require('./routers/sitemapRouter');
 const UtilRouter = require('./routers/utilRouter');

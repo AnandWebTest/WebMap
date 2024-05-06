@@ -1,4 +1,5 @@
 'use client';
+import useAppContext from '@/context/AppContext';
 import { useFormik } from 'formik';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -9,14 +10,12 @@ const Login = () => {
 
   const router = useRouter();
 
-
+  const { setLoggedIn } = useAppContext()
 
   const loginForm = useFormik({
     initialValues: {
-
       email: '',
       password: '',
-
     },
     onSubmit: (values) => {
       console.log(values);
@@ -31,8 +30,12 @@ const Login = () => {
           console.log(response.status);
           if (response.status === 200) {
             enqueueSnackbar("User login Successfully", { variant: 'success' })
-
-            router.push("/")
+            setLoggedIn(true)
+            response.json().then((data) => {
+              console.log(data);
+              sessionStorage.setItem("user", JSON.stringify(data))
+              // router.push("/")
+            })
           } else {
             enqueueSnackbar("somthing went wrong", { variant: 'error' })
           }
