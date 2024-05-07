@@ -20,12 +20,14 @@ const generateId = () => Math.random().toString(36).slice(2, 9);
 
 const WIREFRAME_ELEMENTS = {
     input: {
-        ui: (ref) => (<div ref={ref}>
+        id: 'input1',
+        UI: (props) => (<div {...props}>
             <div className='h-5 w-16 bg-slate-600'></div>
         </div>)
     },
     button: {
-        ui: (ref) => (<div ref={ref}>
+        id: 'button2',
+        UI: (props) => (<div {...props}>
             <div className='h-5 w-16 bg-slate-600'>
                 <p>Click Me</p>
             </div>
@@ -64,9 +66,9 @@ const DND = () => {
                 return arrayMove(items, oldIndex, newIndex);
             });
         }
-
         setActiveId(null);
     }, []);
+
     const handleDragCancel = useCallback(() => {
         setActiveId(null);
     }, []);
@@ -81,8 +83,8 @@ const DND = () => {
         >
             <SortableContext items={items} strategy={rectSortingStrategy}>
                 <Grid columns={5}>
-                    {initializeWireframe().map(({ id, ui }) => (
-                        <SortableItem itemUI={ui} key={id} id={id} />
+                    {currentWireframeElements.map(({ id, UI }) => (
+                        <SortableItem UI={UI} key={id} id={id} />
                     ))}
                 </Grid>
             </SortableContext>
