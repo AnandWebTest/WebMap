@@ -1,6 +1,6 @@
 import React, { forwardRef, HTMLAttributes, CSSProperties } from 'react';
 
-const Item = forwardRef(({ id, withOpacity, isDragging, style, ...props }, ref) => {
+const Item = forwardRef(({ id, withOpacity, isDragging, style, itemUI, ...props }, ref) => {
     const inlineStyles = {
         opacity: withOpacity ? '0.5' : '1',
         transformOrigin: '50% 50%',
@@ -17,7 +17,8 @@ const Item = forwardRef(({ id, withOpacity, isDragging, style, ...props }, ref) 
         ...style,
     };
 
-    return <div ref={ref} style={inlineStyles} {...props}>{id}</div>;
+    // return <div ref={ref} style={inlineStyles} {...props}>{id}</div>;
+    return itemUI(ref)
 });
 
 export default Item;

@@ -13,7 +13,7 @@ import DND from '../dnd';
 
 const initialNodes = [
     { id: '1', position: { x: 0, y: 0 }, data: { label: '1' }, dragHandle: '.custom-drag-handle', type: "BlockNode", isConnectable: true },
-    { id: '2', position: { x: 0, y: 100 }, data: { label: '2' }, dragHandle: '.custom-drag-handle', type: "BlockNode", isConnectable: true },
+    // { id: '2', position: { x: 0, y: 100 }, data: { label: '2' }, dragHandle: '.custom-drag-handle', type: "BlockNode", isConnectable: true },
 ];
 const initialEdges = [{ id: 'e1-2', source: '1', target: '2' }];
 
@@ -23,7 +23,7 @@ const nodeTypes = {
         return (
             <div width={800} className='shadow-lg'>
                 <div className='w-full bg-white p-5 rounded-lg border-2 border-red-700'>
-                    <h2 className='custom-drag-handler'>Wireframe Block</h2>
+                    <h2 className='custom-drag-handle'>Wireframe Block</h2>
                     <DND />
                 </div>
                 <Handle

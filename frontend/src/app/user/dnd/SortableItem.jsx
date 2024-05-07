@@ -20,6 +20,7 @@ const SortableItem = (props) => {
 
     return (
         <Item
+            itemUI={props.itemUI}
             ref={setNodeRef}
             style={style}
             withOpacity={isDragging}

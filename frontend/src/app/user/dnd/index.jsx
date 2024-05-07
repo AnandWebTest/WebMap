@@ -18,120 +18,22 @@ import Item from './Item';
 
 const generateId = () => Math.random().toString(36).slice(2, 9);
 
-const WIREFRAME_ELEMENTS = [
-    {
-        name: 'Text',
-        type: 'text',
+const WIREFRAME_ELEMENTS = {
+    input: {
+        ui: (ref) => (<div ref={ref}>
+            <div className='h-5 w-16 bg-slate-600'></div>
+        </div>)
     },
-    {
-        name: 'Image',
-        type: 'image',
-    },
-    {
-        name: 'Button',
-        type: 'button',
-    },
-    {
-        name: 'Input',
-        type: 'input',
-    },
-    {
-        name: 'Checkbox',
-        type: 'checkbox',
-    },
-    {
-        name: 'Radio',
-        type: 'radio',
-    },
-    {
-        name: 'Select',
-        type: 'select',
-    },
-    {
-        name: 'Textarea',
-        type: 'textarea',
-    },
-    {
-        name: 'Link',
-        type: 'link',
-    },
-    {
-        name: 'Icon',
-        type: 'icon',
-    },
-    {
-        name: 'Divider',
-        type: 'divider',
-    },
-    {
-        name: 'Grid',
-        type: 'grid',
-    },
-    {
-        name: 'Card',
-        type: 'card',
-    },
-    {
-        name: 'Modal',
-        type: 'modal',
-    },
-    {
-        name: 'Tabs',
-        type: 'tabs',
-    },
-    {
-        name: 'Accordion',
-        type: 'accordion',
-    },
-    {
-        name: 'Navbar',
-        type: 'navbar',
-    },
-    {
-        name: 'Sidebar',
-        type: 'sidebar',
-    },
-    {
-        name: 'Footer',
-        type: 'footer',
-    },
-    {
-        name: 'Alert',
-        type: 'alert',
-    },
-    {
-        name: 'Progress',
-        type: 'progress',
-    },
-    {
-        name: 'Spinner',
-        type: 'spinner',
-    },
-    {
-        name: 'Badge',
-        type: 'badge',
-    },
-    {
-        name: 'Avatar',
-        type: 'avatar',
-    },
-    {
-        name: 'List',
-        type: 'list',
-    },
-    {
-        name: 'Table',
-        type: 'table',
-    },
-    {
-        name: 'Pagination',
-        type: 'pagination',
+    button: {
+        ui: (ref) => (<div ref={ref}>
+            <div className='h-5 w-16 bg-slate-600'>
+                <p>Click Me</p>
+            </div>
+        </div>)
     }
-]
+}
 
-const currentWireframeElements = [
-    
-]
+const currentWireframeElements = [WIREFRAME_ELEMENTS.input, WIREFRAME_ELEMENTS.button]
 
 const DND = () => {
     const [items, setItems] = useState(Array.from({ length: 20 }, (_, i) => (i + 1).toString()));
@@ -142,6 +44,14 @@ const DND = () => {
     const handleDragStart = useCallback((event) => {
         setActiveId(event.active.id);
     }, []);
+
+    const initializeWireframe = () => {
+        let wireframe = currentWireframeElements.map((element) => (
+            { id: generateId(), ui: element.ui }
+        ));
+        console.log(wireframe);
+        return wireframe;
+    }
 
     const handleDragEnd = useCallback((event) => {
         const { active, over } = event;
@@ -171,8 +81,8 @@ const DND = () => {
         >
             <SortableContext items={items} strategy={rectSortingStrategy}>
                 <Grid columns={5}>
-                    {items.map((id) => (
-                        <SortableItem key={id} id={id} />
+                    {initializeWireframe().map(({ id, ui }) => (
+                        <SortableItem itemUI={ui} key={id} id={id} />
                     ))}
                 </Grid>
             </SortableContext>
