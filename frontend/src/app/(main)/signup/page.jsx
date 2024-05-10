@@ -173,7 +173,7 @@ const Signup = () => {
               </button>
               <div className="mt-6 text-center ">
                 <a
-                  href="#"
+                  href="/login"
                   className="text-sm text-blue-500 hover:underline dark:text-blue-400"
                 >
                   Already have an account?

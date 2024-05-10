@@ -34,7 +34,7 @@ const Login = () => {
             response.json().then((data) => {
               console.log(data);
               sessionStorage.setItem("user", JSON.stringify(data))
-              // router.push("/")
+              router.push("/user/profile")
             })
           } else {
             enqueueSnackbar("somthing went wrong", { variant: 'error' })
