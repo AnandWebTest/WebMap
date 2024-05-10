@@ -47,16 +47,17 @@ const DND = () => {
         setActiveId(event.active.id);
     }, []);
 
-    const initializeWireframe = () => {
-        let wireframe = currentWireframeElements.map((element) => (
-            { id: generateId(), ui: element.ui }
-        ));
-        console.log(wireframe);
-        return wireframe;
-    }
+    // const initializeWireframe = () => {
+    //     let wireframe = currentWireframeElements.map((element) => (
+    //         { id: generateId(), ui: element.ui }
+    //     ));
+    //     console.log(wireframe);
+    //     return wireframe;
+    // }
 
     const handleDragEnd = useCallback((event) => {
         const { active, over } = event;
+        console.log(over);
 
         if (active.id !== over?.id) {
             setItems((items) => {
