@@ -14,9 +14,9 @@ const Home = () => {
   
     <main className="text-gray-900">
       <section className="pt-20 md:pt-40">
-        <div className="container mx-auto px-8 lg:flex">
+        <div className="container mx-auto px-24 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+            <h1 className="text-4xl lg:text-5xl  xl:text-6xl font-bold leading-none">
             Wireframe & Sitemap Builder
             </h1>
             <p className="text-xl lg:text-2xl mt-6 font-light">
@@ -33,7 +33,7 @@ const Home = () => {
            
           </div>
           <div className="lg:w-1/2">
-           <img className='px-20' src="https://lh3.googleusercontent.com/gg/ANIJZFFO7TY3RiF3W8Qf_E50DNAqAiLTsW-7hMkA3qbddwE5jvQjQFfzVKjTLUKtbkdIrlSCanzHR8_LTcN6J26rsCJJO33p2BTGV8ITiTJUYjwq5R8_uStChia6R0jMQRlrV927ENumhMixyTsQle4rnsYYkWY-GYo1cm1Bf65XVhss5AC7lqzNrk8I7g9Dg1NYGUAv5IOixuL5nJGgAV5Mrg7r6Knb_FqY0qTwVVm9N6dMYPRyyktQUtS_XGMcVZFeAuaw_NnZVsApjfp1XFsGyP5JvV4ALD8bz6BVR_OcMqYRaA8HLNa9Hqh0h5pCgJP1iSfzjAeabYUWalY5GNp-cus" alt="" />
+           <img className='pl-5' src="https://images.squarespace-cdn.com/content/v1/63fe4307eae7180fe64822f0/ecab800a-c22d-4f88-a1d2-30d3f351a8b3/okc+web+development+company"></img>
           </div>
         </div>
       </section>
@@ -44,7 +44,7 @@ const Home = () => {
           
             <div className="flex-1 px-3">
               <div
-                className="p-12 rounded-lg border border-solid border-gray-200 mb-8"
+                className="p-12 h-full rounded-lg border border-solid border-gray-200 mb-8"
                 style={{ boxShadow: "0 10px 28px rgba(0,0,0,.08)" }}
               >
                 <img className='py-8' src="https://designerrs.com/wp-content/uploads/2020/10/UX-Design_.png" alt="" />
@@ -57,10 +57,10 @@ const Home = () => {
 
             <div className="flex-1 px-3 ">
               <div
-                className="p-12 rounded-lg border border-solid border-gray-200 mb-8"
+                className="p-12 h-full rounded-lg border border-solid border-gray-200 mb-8"
                 style={{ boxShadow: "0 10px 28px rgba(0,0,0,.08)" }}
               >
-                <img className='h-56 mx-auto' src="https://www.shutterstock.com/image-vector/drag-drop-icon-linear-design-600nw-1386472832.jpg" alt="" />
+                <img className='h-64 mx-auto' src="https://www.shutterstock.com/image-vector/drag-drop-icon-linear-design-600nw-1386472832.jpg" alt="" />
                 <p className="font-semibold text-xl ">Drag ad Drop</p>
                 <p className="mt-4">
                 Effortlessly build wireframes by dragging and dropping pre-built elements like headers, footers, content blocks, forms, and buttons.
@@ -70,7 +70,7 @@ const Home = () => {
 
             <div className="flex-1 px-3">
               <div
-                className="p-12 rounded-lg border border-solid border-gray-200 mb-8"
+                className="p-12 h-full rounded-lg border border-solid border-gray-200 mb-8"
                 style={{ boxShadow: "0 10px 28px rgba(0,0,0,.08)" }}
               >
                 <img className='py-6' src="https://repository-images.githubusercontent.com/380876086/cce86200-d7eb-11eb-8bac-005ebd5e7a52" alt="" />
