@@ -4,7 +4,6 @@ import { CSS } from "@dnd-kit/utilities";
 import Item, { ItemProps } from "./Item";
 
 const SortableItem = (props) => {
-    console.log(props);
     const {
         isDragging,
         attributes,
