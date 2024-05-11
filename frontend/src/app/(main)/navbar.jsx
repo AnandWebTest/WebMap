@@ -28,33 +28,33 @@ const Navbar = () => {
     >
       <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
         <a
-          className="font-medium text-blue-600 sm:py-6 dark:text-blue-500"
-          href="#"
+          className="font-medium text-teal-500 sm:py-6 dark:text-teal-500"
+          href="/"
           aria-current="page"
         >
-          Landing
+          Home
         </a>
         <a
-          className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-          href="#"
+          className="font-medium text-teal-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
+          href="/about"
         >
-          Account
+          About
         </a>
         <a
-          className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-          href="#"
+          className="font-medium text-teal-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
+          href="/contact"
         >
-          Work
+          Contact
         </a>
         <a
-          className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
+          className="font-medium text-teal-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
           href="#"
         >
           Blog
         </a>
      
         <Link
-          className="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 sm:border-s sm:border-gray-300 sm:my-6 sm:ps-6 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-blue-500"
+          className="flex items-center gap-x-2 font-medium text-gray-500 hover:text-teal-600 sm:border-s sm:border-gray-300 sm:my-6 sm:ps-6 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-teal-500"
           href="/login"
         >
           <svg

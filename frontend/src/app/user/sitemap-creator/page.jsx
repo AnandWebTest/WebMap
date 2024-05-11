@@ -42,7 +42,7 @@ const SitemapCreator = () => {
 
   return (
     <>
-      <div className="relative bg-blue-900">
+      <div className="relative bg-teal-600">
         {/* <div className="absolute inset-x-0 bottom-0">
           <svg
             viewBox="0 0 224 12"
@@ -77,7 +77,7 @@ const SitemapCreator = () => {
               <button
                 onClick={generateSitemap}
                 type="button"
-                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-blue-700 transition duration-200 rounded shadow-md md:w-auto bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-teal-700 transition duration-200 rounded shadow-md md:w-auto bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Generate
               </button>
