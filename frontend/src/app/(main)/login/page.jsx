@@ -47,10 +47,10 @@ const Login = () => {
   })
 
   return (
-    <div className='bg-blue-200'>
-      <section className="">
+    <div className='bg-blue-200 min-h-screen'>
+      <section className="h-full">
         <div className="container px-6 py-24 mx-auto lg:py-32">
-          <div className="lg:flex">
+          <div className="lg:flex items-center">
             <div className="lg:w-1/2">
               <img
                 className="w-auto h-7 sm:h-8"
