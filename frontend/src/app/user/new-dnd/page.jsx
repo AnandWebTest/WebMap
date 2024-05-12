@@ -1,3 +1,4 @@
+'use client';
 import { useRef, useState } from "react";
 import { useImmer } from "use-immer";
 import { DndContext, DragOverlay } from "@dnd-kit/core";
