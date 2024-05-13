@@ -113,10 +113,12 @@ const SitemapCreator = () => {
       <div className=' grid py-12 px-12 grid-cols-2 gap-5'>
         <div>
           <div className="flex justify-between">
-          <p className="text-teal-600 text-xl">XML</p>
-          <div>
-            <button className='border px-2 py-1 mb-2'>Copy to clipboard</button>
-          </div>
+            <p className="text-teal-600 text-xl">XML</p>
+            <div>
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded mb-2">
+                Copy to clipboard
+              </button>
+            </div>
           </div>
           <textarea id="copy" className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
             rows={50}
@@ -124,7 +126,13 @@ const SitemapCreator = () => {
           ></textarea>
         </div>
         <div>
-          <p className="text-teal-600 text-xl mb-3">JSON</p>
+          <div className='flex justify-between '>
+
+            <p className="text-teal-600 text-xl mb-3">JSON</p>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded mb-2">
+              Copy to clipboard
+            </button>
+          </div>
           <textarea className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
             rows={50}
             value={jsontoxml()}

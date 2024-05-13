@@ -128,12 +128,12 @@ const Login = () => {
                   >
                     Forgot your password?
                   </Link>
-                  <a
+                  <Link
                     href="/signup"
                     className="text-sm text-blue-500 hover:underline dark:text-blue-400"
                   >
                     Don't have an account?
-                  </a>
+                  </Link>
 
                 </div>
               </form>

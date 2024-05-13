@@ -83,7 +83,7 @@ const Signup = () => {
                     className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
                     placeholder="johnsmith@example.com"
                     name='name'
-                    value={signupForm.values.password}
+                    value={signupForm.values.name}
                     onChange={signupForm.handleChange}
                   />
                 </div>
@@ -103,7 +103,7 @@ const Signup = () => {
                     className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
                     placeholder="johnsmith@example.com"
                     name='email'
-                    value={signupForm.values.password}
+                    value={signupForm.values.email}
                     onChange={signupForm.handleChange}
                   />
                 </div>
