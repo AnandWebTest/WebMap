@@ -1,4 +1,5 @@
 'use client';
+import { enqueueSnackbar } from 'notistack';
 import React, { useRef, useState } from 'react'
 import { CopyBlock, dracula } from 'react-code-blocks';
 import { json2xml } from 'xml-js';
@@ -21,6 +22,16 @@ const SitemapCreator = () => {
     link.click();
     document.body.removeChild(link);
   };
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text).then(function () {
+      console.log('Async: Copying to clipboard was successful!');
+      enqueueSnackbar('Copied to clipboard', { variant: 'success' });
+    }, function (err) {
+      console.error('Async: Could not copy text: ', err);
+    });
+  }
+
 
   const loadSitemap = (directory) => {
     fetch(`${process.env.NEXT_PUBLIC_API_URL}/load-sitemap/${directory}/crawl.json`)
@@ -127,7 +138,7 @@ const SitemapCreator = () => {
           <div className="flex justify-between">
             <p className="text-teal-600 text-xl">JSON</p>
             <div>
-              <button className='border px-2 py-1 mb-2'>Copy to clipboard</button>
+              <button className='border px-2 py-1 mb-2' onClick={e => copyToClipboard(JSON.stringify(sitemapJSON.children, null, 2))}>Copy to clipboard</button>
             </div>
           </div>
           <textarea id="copy" className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
