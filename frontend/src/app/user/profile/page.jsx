@@ -64,7 +64,7 @@ const UserProfile = () => {
               className="absolute top-0 w-full h-full bg-center bg-cover"
               style={{
                 backgroundImage:
-                  'url("https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80")'
+                  'url("https://www.wallpapertip.com/wmimgs/196-1963020_website-backgrounds-website-login-page-background.jpg")'
               }}
             >
               <span
