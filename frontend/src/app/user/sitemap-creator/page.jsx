@@ -1,219 +1,152 @@
 'use client';
-import { useRef, useState } from "react";
-import { useImmer } from "use-immer";
-import { DndContext, DragOverlay } from "@dnd-kit/core";
-import {
-    arrayMove,
-    SortableContext,
-    verticalListSortingStrategy
-} from "@dnd-kit/sortable";
+import React, { useRef, useState } from 'react'
+import { CopyBlock, dracula } from 'react-code-blocks';
+import { json2xml } from 'xml-js';
 
-import Announcements from "./new-dnd/announcements";
-import Canvas, { Field } from "./new-dnd/canvas";
-import Sidebar, { SidebarField } from "./new-dnd/sidebar";
+const SitemapCreator = () => {
 
-function getData(prop) {
-    return prop?.data?.current ?? {};
-}
 
-function createSpacer({ id }) {
-    return {
-        id,
-        type: "spacer",
-        title: "spacer"
-    };
-}
 
-export default function App() {
+  const urlRef = useRef(null);
+  const [sitemapJSON, setSitemapJSON] = useState({ children: [] });
 
-    const [pages, setPages] = useState([{ id: 1, title: "Home" }, { id: 2, title: "About" }, { id: 3, title: "Contact" }]);
-    const [sidebarFieldsRegenKey, setSidebarFieldsRegenKey] = useState(
-        Date.now()
-    );
-    const spacerInsertedRef = useRef();
-    const currentDragFieldRef = useRef();
-    const [activeSidebarField, setActiveSidebarField] = useState(); // only for fields from the sidebar
-    const [activeField, setActiveField] = useState(); // only for fields that are in the form.
-    const [data, updateData] = useImmer({
-        fields: []
-    });
+  const downloadXML = () => {
+    const xmlData = jsontoxml(); // Assuming jsontoxml() returns your XML data
+    const blob = new Blob([xmlData], { type: 'application/xml' });
+    const href = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = href;
+    link.download = 'sitemap.xml'; // Name of the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
-    const addNewPage = () => {
-        const newPage = { id: pages.length + 1, title: `Page ${pages.length + 1}` };
-        setPages([...pages, newPage]);
-    }
+  const loadSitemap = (directory) => {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/load-sitemap/${directory}/crawl.json`)
+      .then(res => res.json())
+      .then(data => {
+        // console.log(JSON.stringify(data.children));
+        setSitemapJSON(data);
+      }).catch(err => {
+        console.log(err);
+      })
+  }
 
-    const cleanUp = () => {
-        setActiveSidebarField(null);
-        setActiveField(null);
-        currentDragFieldRef.current = null;
-        spacerInsertedRef.current = false;
-    };
+  const generateSitemap = () => {
+    fetch('http://localhost:5000/sitemap/generate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ url: urlRef.current.value })
+    }).then(res => res.json())
+      .then(data => {
+        console.log(data);
+        loadSitemap(data.outputDir);
+      }).catch(err => {
+        console.log(err);
+      })
+  }
 
-    const handleDragStart = (e) => {
-        const { active } = e;
-        const activeData = getData(active);
+  const jsontoxml = () => {
+    const json = JSON.stringify(sitemapJSON.children, null, 2);
+    return json2xml(json, { compact: true, spaces: 4 });
+  }
 
-        // This is where the cloning starts.
-        // We set up a ref to the field we're dragging
-        // from the sidebar so that we can finish the clone
-        // in the onDragEnd handler.
-        if (activeData.fromSidebar) {
-            const { field } = activeData;
-            const { type } = field;
-            setActiveSidebarField(field);
-            // Create a new field that'll be added to the fields array
-            // if we drag it over the canvas.
-            currentDragFieldRef.current = {
-                id: active.id,
-                type,
-                name: `${type}${fields.length + 1}`,
-                parent: null
-            };
-            return;
-        }
+  return (
+    <>
+      <div className="relative bg-teal-600">
+        {/* <div className="absolute inset-x-0 bottom-0">
+          <svg
+            viewBox="0 0 224 12"
+            fill="#fff"
+            className="w-full -mb-1 text-black"
+            preserveAspectRatio="none"
+          >
+            <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
+          </svg>
+        </div> */}
+        <div className="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+            <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+              SiteMap Generator
+              <br className="hidden md:block" />
 
-        // We aren't creating a new element so go ahead and just insert the spacer
-        // since this field already belongs to the canvas.
-        const { field, index } = activeData;
+              <span className="relative inline-block">
 
-        setActiveField(field);
-        currentDragFieldRef.current = field;
-        updateData((draft) => {
-            draft.fields.splice(index, 1, createSpacer({ id: active.id }));
-        });
-    };
+                <div className="w-full h-3 -mt-3 bg-deep-purple-accent-400" />
+              </span>
+            </h2>
+            <p className="mb-6 text-base font-thin tracking-wide text-gray-300 md:text-lg">
 
-    const handleDragOver = (e) => {
-        const { active, over } = e;
-        const activeData = getData(active);
-
-        // Once we detect that a sidebar field is being moved over the canvas
-        // we create the spacer using the sidebar fields id with a spacer suffix and add into the
-        // fields array so that it'll be rendered on the canvas.
-
-        // 🐑 CLONING 🐑
-        // This is where the clone occurs. We're taking the id that was assigned to
-        // sidebar field and reusing it for the spacer that we insert to the canvas.
-        if (activeData.fromSidebar) {
-            const overData = getData(over);
-
-            if (!spacerInsertedRef.current) {
-                const spacer = createSpacer({
-                    id: active.id + "-spacer"
-                });
-
-                updateData((draft) => {
-                    if (!draft.fields.length) {
-                        draft.fields.push(spacer);
-                    } else {
-                        const nextIndex =
-                            overData.index > -1 ? overData.index : draft.fields.length;
-
-                        draft.fields.splice(nextIndex, 0, spacer);
-                    }
-                    spacerInsertedRef.current = true;
-                });
-            } else if (!over) {
-                // This solves the issue where you could have a spacer handing out in the canvas if you drug
-                // a sidebar item on and then off
-                updateData((draft) => {
-                    draft.fields = draft.fields.filter((f) => f.type !== "spacer");
-                });
-                spacerInsertedRef.current = false;
-            } else {
-                // Since we're still technically dragging the sidebar draggable and not one of the sortable draggables
-                // we need to make sure we're updating the spacer position to reflect where our drop will occur.
-                // We find the spacer and then swap it with the over skipping the op if the two indexes are the same
-                updateData((draft) => {
-                    const spacerIndex = draft.fields.findIndex(
-                        (f) => f.id === active.id + "-spacer"
-                    );
-
-                    const nextIndex =
-                        overData.index > -1 ? overData.index : draft.fields.length - 1;
-
-                    if (nextIndex === spacerIndex) {
-                        return;
-                    }
-
-                    draft.fields = arrayMove(draft.fields, spacerIndex, overData.index);
-                });
-            }
-        }
-    };
-
-    const handleDragEnd = (e) => {
-        const { over } = e;
-
-        // We dropped outside of the over so clean up so we can start fresh.
-        if (!over) {
-            cleanUp();
-            updateData((draft) => {
-                draft.fields = draft.fields.filter((f) => f.type !== "spacer");
-            });
-            return;
-        }
-
-        // This is where we commit the clone.
-        // We take the field from the this ref and replace the spacer we inserted.
-        // Since the ref just holds a reference to a field that the context is aware of
-        // we just swap out the spacer with the referenced field.
-        let nextField = currentDragFieldRef.current;
-
-        if (nextField) {
-            const overData = getData(over);
-
-            updateData((draft) => {
-                const spacerIndex = draft.fields.findIndex((f) => f.type === "spacer");
-                draft.fields.splice(spacerIndex, 1, nextField);
-
-                draft.fields = arrayMove(
-                    draft.fields,
-                    spacerIndex,
-                    overData.index || 0
-                );
-            });
-        }
-
-        setSidebarFieldsRegenKey(Date.now());
-        cleanUp();
-    };
-
-    const { fields } = data;
-
-    return (
-        <>
-            <button onClick={addNewPage}>Add New Page</button>
-            <div className="app">
-                <div className="content">
-                    <DndContext
-                        onDragStart={handleDragStart}
-                        onDragOver={handleDragOver}
-                        onDragEnd={handleDragEnd}
-                        autoScroll
-                    >
-                        <Announcements />
-                        <Sidebar fieldsRegKey={sidebarFieldsRegenKey} />
-                        <SortableContext
-                            strategy={verticalListSortingStrategy}
-                            items={fields.map((f) => f.id)}
-                        >
-                            {
-                                pages.map(page => (
-                                    <Canvas pageName={page.title} fields={fields} />
-                                ))
-                            }
-                        </SortableContext>
-                        <DragOverlay dropAnimation={false}>
-                            {activeSidebarField ? (
-                                <SidebarField overlay field={activeSidebarField} />
-                            ) : null}
-                            {activeField ? <Field overlay field={activeField} /> : null}
-                        </DragOverlay>
-                    </DndContext>
-                </div>
+            </p>
+            <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
+              <input
+                placeholder="Your Website URL"
+                ref={urlRef}
+                type="text"
+                className="flex-grow w-full h-12 px-9 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline"
+              />
+              <button
+                onClick={generateSitemap}
+                type="button"
+                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-teal-700 transition duration-200 rounded shadow-md md:w-auto bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              >
+                Generate
+              </button>
+            </form>
+            <a
+              href="/"
+              aria-label="Scroll down"
+              className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={12}
+                height={12}
+                viewBox="0 0 12 12"
+                fill="currentColor"
+              >
+                <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        {/* <CopyBlock
+        text={JSON.stringify(sitemapJSON.children, null, 2)}
+        language={"json"}
+        showLineNumbers={true}
+        theme={dracula}
+        wrapLines={true}
+      /> */}
+      </div>
+      {/* <p className="">XML </p> */}
+      <div className=' grid py-12 px-12 grid-cols-2 gap-5'>
+        <div>
+          <div className="flex justify-between">
+            <p className="text-teal-600 text-xl">JSON</p>
+            <div>
+              <button className='border px-2 py-1 mb-2'>Copy to clipboard</button>
             </div>
-        </>
-    );
+          </div>
+          <textarea id="copy" className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
+            rows={50}
+            value={JSON.stringify(sitemapJSON.children, null, 2)}
+          ></textarea>
+        </div>
+        <div>
+          <p className="text-teal-600 text-xl mb-3">XML</p>
+          <button onClick={downloadXML}>Download XML</button>
+          <textarea className='w-full bg-white text-slate-900 border-2 border-gray-300 p-2'
+            rows={50}
+            value={jsontoxml()}
+          ></textarea>
+        </div>
+      </div>
+    </>
+
+  );
 }
+
+export default SitemapCreator
