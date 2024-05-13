@@ -1,0 +1,5892 @@
+{
+ "url": "https://digipodium.com",
+ "title": "digipodium",
+ "children": [
+  {
+   "url": "https://digipodium.com/index.php",
+   "title": "digipodium",
+   "children": [
+    {
+     "url": "https://digipodium.com/about.php",
+     "title": "About Us",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/about.php#team",
+     "title": "About Us",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php",
+     "title": "Event Management",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php#team"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/contact.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/privacy_policy.php"
+      },
+      {
+       "url": "https://digipodium.com/terms.php"
+      },
+      {
+       "url": "https://digipodium.com/help.php"
+      },
+      {
+       "url": "https://digipodium.com/feedback.php"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/contact.php",
+     "title": "Contact Us",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php#team"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/contact.php#section-locate"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/web/contact",
+     "title": "Digipodium Contact Us",
+     "children": [
+      {
+       "url": "https://digipodium.com/"
+      },
+      {
+       "url": "https://digipodium.com/web/"
+      },
+      {
+       "url": "https://digipodium.com/web/admin"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php#dm-solutions",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud",
+     "title": "IT Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#courses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#wintertraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Projecttraining"
+      },
+      {
+       "url": "https://digipodium.com/training.php#"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Summertraining"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#ContentM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM",
+     "title": "Digital Marketing Training",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      },
+      {
+       "url": "https://digipodium.com/training.php"
+      },
+      {
+       "url": "https://digipodium.com/dm.php"
+      },
+      {
+       "url": "https://digipodium.com/corpevt.php"
+      },
+      {
+       "url": "https://digipodium.com/about.php"
+      },
+      {
+       "url": "https://digipodium.com/web/contact"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#mycourse"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#Master"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GoogleAds"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SEO"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#GAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/dm.php#SMM"
+      },
+      {
+       "url": "https://digipodium.com/training.php#DataAnalytics"
+      },
+      {
+       "url": "https://digipodium.com/training.php#JavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvJavaCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AndroidCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#KotlinCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#pythonCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Django"
+      },
+      {
+       "url": "https://digipodium.com/training.php#iot"
+      },
+      {
+       "url": "https://digipodium.com/training.php#machineLearning"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvancedML"
+      },
+      {
+       "url": "https://digipodium.com/training.php#bigdataCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#phpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#AdvphpCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#meanStack"
+      },
+      {
+       "url": "https://digipodium.com/training.php#MsCourses"
+      },
+      {
+       "url": "https://digipodium.com/training.php#Cloud"
+      },
+      {
+       "url": "https://digipodium.com/webinar"
+      }
+     ]
+    },
+    {
+     "url": "https://digipodium.com/webinar",
+     "title": "Digipodium Webinar",
+     "children": [
+      {
+       "url": "https://digipodium.com/index.php"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/about.php",
+   "title": "About Us",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/about.php#team",
+   "title": "About Us",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/corpevt.php",
+   "title": "Event Management",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php#team"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/contact.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/privacy_policy.php"
+    },
+    {
+     "url": "https://digipodium.com/terms.php"
+    },
+    {
+     "url": "https://digipodium.com/help.php"
+    },
+    {
+     "url": "https://digipodium.com/feedback.php"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/contact.php",
+   "title": "Contact Us",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php#team"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/contact.php#section-locate"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/web/contact",
+   "title": "Digipodium Contact Us",
+   "children": [
+    {
+     "url": "https://digipodium.com/"
+    },
+    {
+     "url": "https://digipodium.com/web/"
+    },
+    {
+     "url": "https://digipodium.com/web/admin"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php#dm-solutions",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#DataAnalytics",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#JavaCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#AdvJavaCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#AndroidCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#KotlinCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#pythonCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#Django",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#iot",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#machineLearning",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#AdvancedML",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#bigdataCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#phpCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#AdvphpCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#meanStack",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#MsCourses",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/training.php#Cloud",
+   "title": "IT Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#courses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#wintertraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Projecttraining"
+    },
+    {
+     "url": "https://digipodium.com/training.php#"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Summertraining"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php#Master",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php#GoogleAds",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php#SEO",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php#GAnalytics",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php#SMM",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#ContentM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/dm.php#ContentM",
+   "title": "Digital Marketing Training",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    },
+    {
+     "url": "https://digipodium.com/training.php"
+    },
+    {
+     "url": "https://digipodium.com/dm.php"
+    },
+    {
+     "url": "https://digipodium.com/corpevt.php"
+    },
+    {
+     "url": "https://digipodium.com/about.php"
+    },
+    {
+     "url": "https://digipodium.com/web/contact"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#mycourse"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#Master"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GoogleAds"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SEO"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#GAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/dm.php#SMM"
+    },
+    {
+     "url": "https://digipodium.com/training.php#DataAnalytics"
+    },
+    {
+     "url": "https://digipodium.com/training.php#JavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvJavaCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AndroidCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#KotlinCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#pythonCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Django"
+    },
+    {
+     "url": "https://digipodium.com/training.php#iot"
+    },
+    {
+     "url": "https://digipodium.com/training.php#machineLearning"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvancedML"
+    },
+    {
+     "url": "https://digipodium.com/training.php#bigdataCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#phpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#AdvphpCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#meanStack"
+    },
+    {
+     "url": "https://digipodium.com/training.php#MsCourses"
+    },
+    {
+     "url": "https://digipodium.com/training.php#Cloud"
+    },
+    {
+     "url": "https://digipodium.com/webinar"
+    }
+   ]
+  },
+  {
+   "url": "https://digipodium.com/webinar",
+   "title": "Digipodium Webinar",
+   "children": [
+    {
+     "url": "https://digipodium.com/index.php"
+    }
+   ]
+  }
+ ]
+}
