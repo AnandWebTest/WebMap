@@ -192,6 +192,12 @@ export default function App() {
           >
             <Canvas fields={fields} />
           </SortableContext>
+          <SortableContext
+            strategy={verticalListSortingStrategy}
+            items={fields.map((f) => f.id)}
+          >
+            <Canvas fields={fields} />
+          </SortableContext>
           <DragOverlay dropAnimation={false}>
             {activeSidebarField ? (
               <SidebarField overlay field={activeSidebarField} />
