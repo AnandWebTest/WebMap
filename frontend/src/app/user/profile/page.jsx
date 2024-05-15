@@ -109,7 +109,7 @@ const UserProfile = () => {
                     <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
                       <div className="py-6 px-3 mt-32 sm:mt-0">
                         <label className='btn bg-white border hover:bg-slate-200' htmlFor='upload-image'>
-                          {" "} <i className='fas fa-pen'>&nbsp;Edit </i>
+                          {" "} <i className='fas fa-pen'>&nbsp;Change Profile </i>
                         </label>
                         <input type="file" hidden onChange={uploadProfileImage} id="upload-image" />
                       </div>
