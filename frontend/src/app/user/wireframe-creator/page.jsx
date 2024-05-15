@@ -26,7 +26,7 @@ function createSpacer({ id }) {
 
 export default function App() {
 
-    const [pages, setPages] = useState([{ id: 1, title: "Home" }, { id: 2, title: "About" }, { id: 3, title: "Contact" }]);
+    const [pages, setPages] = useState([{ id: 1, title: "Home" }]);
     const [sidebarFieldsRegenKey, setSidebarFieldsRegenKey] = useState(
         Date.now()
     );
@@ -184,34 +184,36 @@ export default function App() {
 
     return (
         <>
-            <button onClick={addNewPage}>Add New Page</button>
+            <button
+                className=" fixed bottom-0 right-0 m-4 p-2 bg-blue-500 text-white rounded-lg shadow-lg"
+                onClick={addNewPage}>Add New Page</button>
             <div className="app">
                 <div className="content">
-                    <DndContext
-                        onDragStart={handleDragStart}
-                        onDragOver={handleDragOver}
-                        onDragEnd={handleDragEnd}
-                        autoScroll
-                    >
-                        <Announcements />
-                        <Sidebar fieldsRegKey={sidebarFieldsRegenKey} />
-                        <SortableContext
-                            strategy={verticalListSortingStrategy}
-                            items={fields.map((f) => f.id)}
-                        >
-                            {
-                                pages.map(page => (
+                    {
+                        pages.map(page => (
+                            <DndContext
+                                onDragStart={handleDragStart}
+                                onDragOver={handleDragOver}
+                                onDragEnd={handleDragEnd}
+                                autoScroll
+                            >
+                                <Announcements />
+                                <Sidebar fieldsRegKey={sidebarFieldsRegenKey} />
+                                <SortableContext
+                                    strategy={verticalListSortingStrategy}
+                                    items={fields.map((f) => f.id)}
+                                >
                                     <Canvas pageName={page.title} fields={fields} />
-                                ))
-                            }
-                        </SortableContext>
-                        <DragOverlay dropAnimation={false}>
-                            {activeSidebarField ? (
-                                <SidebarField overlay field={activeSidebarField} />
-                            ) : null}
-                            {activeField ? <Field overlay field={activeField} /> : null}
-                        </DragOverlay>
-                    </DndContext>
+                                </SortableContext>
+                                <DragOverlay dropAnimation={false}>
+                                    {activeSidebarField ? (
+                                        <SidebarField overlay field={activeSidebarField} />
+                                    ) : null}
+                                    {activeField ? <Field overlay field={activeField} /> : null}
+                                </DragOverlay>
+                            </DndContext>
+                        ))
+                    }
                 </div>
             </div>
         </>

@@ -19,6 +19,10 @@ export const fields = [
     {
       type: "textarea",
       title: "Text Area"
+    },
+    {
+      type: "header",
+      title: "Header"
     }
   ];
   
@@ -46,6 +50,11 @@ export const fields = [
         Ipsum.
       </p>
     ),
-    button: () => <button>Button</button>
+    button: () => <button className="w-full border border-slate-800 py-4 px-3">Button</button>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">Header</h2>
+      </div>
+    )
   };
   
