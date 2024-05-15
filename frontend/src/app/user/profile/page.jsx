@@ -150,7 +150,7 @@ const UserProfile = () => {
                     {(updateProfile) => (
 
                 
-                <form  className="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2">
+                <form  onSubmit={updateProfile.handleSubmit} className="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2">
                   <div>
                     <label
                       htmlFor="first-name"
