@@ -34,9 +34,15 @@ const Login = () => {
             response.json().then((data) => {
               console.log(data);
               sessionStorage.setItem("user", JSON.stringify(data))
-              router.push("/user/profile")
+              if(data.role === "admin"){
+                sessionStorage.setItem("admin", JSON.stringify(data));
+                router.push("/admin/dashboard")
+              }else{
+                sessionStorage.setItem("user", JSON.stringify(data));
+                router.push("/user/profile")
+              }
             })
-          } else {
+          } else if (response.status ===400) {
             enqueueSnackbar("somthing went wrong", { variant: 'error' })
           }
         }).catch((err) => {

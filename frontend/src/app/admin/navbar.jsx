@@ -48,9 +48,9 @@ const AdminNavbar = () => {
           >
             <ul className="space-y-1.5">
               <li>
-                <a
+                <Link
                   className="flex items-center gap-x-3.5 py-2 px-2.5 bg-gray-100 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-700 dark:text-white"
-                  href="#"
+                  href={"/admin/dashboard"}
                 >
                   <svg
                     className="size-4"
@@ -68,7 +68,7 @@ const AdminNavbar = () => {
                     <polyline points="9 22 9 12 15 12 15 22" />
                   </svg>
                   Dashboard
-                </a>
+                </Link>
               </li>
               {/* <li className="hs-accordion" id="users-accordion">
           <button

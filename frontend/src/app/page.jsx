@@ -33,6 +33,7 @@ const Home = () => {
            
           </div>
           <div className="lg:w-1/2">
+            
            <img className='pl-5' src="https://images.squarespace-cdn.com/content/v1/63fe4307eae7180fe64822f0/ecab800a-c22d-4f88-a1d2-30d3f351a8b3/okc+web+development+company"></img>
           </div>
         </div>

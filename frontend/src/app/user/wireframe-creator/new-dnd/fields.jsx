@@ -23,7 +23,38 @@ export const fields = [
     {
       type: "header",
       title: "Header"
+    },
+    {
+      type: "image",
+      title: "image"
+
+    },
+    {
+      type: "paragraph",
+      title: "paragraph"
+    },
+    {
+
+      type: "footer",
+      title: "footer"
+    },
+    {
+      type: "navbar",
+      title: "navbar"
+    },
+    {
+      type: "heading",
+      title: "heading"
+    },
+    {
+      type: "form",
+      title: "form"
+    },
+    {
+      type: "table",
+      title: "table"
     }
+
   ];
   
   // These define how we render the field
@@ -55,6 +86,50 @@ export const fields = [
       <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
         <h2 className="font-bold text-center text-3xl text-slate-800">Header</h2>
       </div>
+    ),
+    image: () => <img className="w-full border border-slate-800 py-4 px-3"/>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">image</h2>
+      </div>
+    ),
+    paragraph: () => <p className="w-full border border-slate-800 py-4 px-3">paragraph</p>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">paragraph</h2>
+      </div>
+    ),
+    footer: () => <footer className="w-full border border-slate-800 py-4 px-3">footer</footer>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">footer</h2>
+      </div>
+    ),
+    navbar: () => <nav className="w-full border border-slate-800 py-4 px-3">navbar</nav>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">navbar</h2>
+      </div>
+    ),
+    heading: () => <h className="w-full border border-slate-800 py-4 px-3">heading</h>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">heading</h2>
+      </div>
+    ),
+    form: () => <form className="w-full border border-slate-800 py-4 px-3">form</form>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">form</h2>
+      </div>
+  
+  ),
+  table: () => <table className="w-full border border-slate-800 py-4 px-3">table</table>,
+    header: () => (
+      <div className="w-full h-48 bg-slate-400 border border-black flex items-center justify-center">
+        <h2 className="font-bold text-center text-3xl text-slate-800">table</h2>
+      </div>
     )
+
   };
   

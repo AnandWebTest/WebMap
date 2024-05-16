@@ -6,7 +6,7 @@ const mySchema = new Schema({
     avatar: {type: String, default: 'avatar_placeholder.png'},
     password: String,
     address:String,
-    role: { type: Number, default: 0 },
+    role: { type: String, default: "user" },
     createdAt: Date,
 });
 

@@ -184,9 +184,9 @@ export default function App() {
 
     return (
         <>
-            <button
+            {/* <button
                 className=" fixed bottom-0 right-0 m-4 p-2 bg-blue-500 text-white rounded-lg shadow-lg"
-                onClick={addNewPage}>Add New Page</button>
+                onClick={addNewPage}>Add New Page</button> */}
             <div className="app">
                 <div className="content">
                     {

@@ -102,6 +102,8 @@ const Navbar = () => {
               >
                 Blog
               </a>
+              
+             
 
              {
               showLoggedIn()
